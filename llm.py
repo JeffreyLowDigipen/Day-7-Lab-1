@@ -7,6 +7,7 @@ No other module imports litellm directly.
 Supported MODEL prefixes (set in .env):
   openai/...    — cloud; requires OPENAI_API_KEY
   anthropic/... — cloud; requires ANTHROPIC_API_KEY
+  gemini/...    — cloud; requires GOOGLE_API_KEY
   ollama/...    — local; requires `ollama serve` and the model to be pulled;
                   no API key; reads OLLAMA_API_BASE (default localhost:11434)
 """
@@ -119,7 +120,12 @@ def _check_no_rewrite(data: object, path: str = "") -> None:
 
 def _raise_auth_error(model: str, exc: Exception) -> None:
     """Raise a RuntimeError naming the missing env var for the chosen route."""
-    var = "ANTHROPIC_API_KEY" if model.startswith("anthropic/") else "OPENAI_API_KEY"
+    if model.startswith("gemini/"):
+        var = "GOOGLE_API_KEY"
+    elif model.startswith("anthropic/"):
+        var = "ANTHROPIC_API_KEY"
+    else:
+        var = "OPENAI_API_KEY"
     raise RuntimeError(
         f"{var} is invalid or missing for route '{model}'. "
         "Check your .env file."
