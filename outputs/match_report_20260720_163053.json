@@ -1,0 +1,460 @@
+{
+  "resume_profile": {
+    "name": "ALEX TAN MING WEI",
+    "contact": {
+      "email": "alex.tan@email.com",
+      "phone": "+65 9123 4567",
+      "linkedin": "linkedin.com/in/alextan",
+      "github": "github.com/alextan",
+      "portfolio": ""
+    },
+    "summary": "Systems-oriented RTIS graduate with hands-on experience building real-time simulation systems, REST APIs, and containerised infrastructure tools.",
+    "education": [
+      {
+        "school": "DigiPen Institute of Technology Singapore",
+        "degree": "Bachelor of Science in Real-Time Interactive Simulation (RTIS)",
+        "graduation_date": "May 2026",
+        "courses": [
+          "Operating Systems",
+          "Computer Networks",
+          "Distributed Systems",
+          "Computer Graphics",
+          "Algorithms & Data Structures"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "title": "Distributed Task Scheduler",
+        "date": "Aug 2025 ? Dec 2025",
+        "bullets": [
+          "Designed a Python-based distributed task scheduler using Redis and Docker that reduced job processing time by 40%, handling 500+ concurrent tasks.",
+          "Implemented RESTful APIs with FastAPI and deployed on AWS ECS using Terraform, achieving 99.9% uptime over a 3-month period.",
+          "Automated CI/CD pipeline with GitHub Actions, cutting deployment time from 30 minutes to under 5 minutes."
+        ]
+      },
+      {
+        "title": "Real-Time Physics Engine",
+        "date": "Jan 2025 ? May 2025",
+        "bullets": [
+          "Built a real-time application loop in C++ with Vulkan rendering that sustained 60 fps on 500+ dynamic objects simultaneously.",
+          "Implemented spatial algorithms (AABB broad-phase, SAT narrow-phase) in C++, reducing collision computation time by 35%.",
+          "Deployed cross-platform on Windows and Linux using CMake."
+        ]
+      },
+      {
+        "title": "Linux Monitoring Dashboard",
+        "date": "Mar 2024 ? Jun 2024",
+        "bullets": [
+          "Developed a Prometheus + Grafana monitoring stack with Bash automation scripts that detected system anomalies 3x faster than manual log review.",
+          "Containerised the stack with Docker Compose; integrated Kubernetes Helm charts for scaling across 10-node clusters."
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "Systems Engineering Intern",
+        "company": "Accenture Singapore",
+        "date": "May 2025 ? Aug 2025",
+        "bullets": [
+          "Automated infrastructure provisioning with Terraform and Ansible across AWS GCP environments, reducing manual setup time by 60%.",
+          "Wrote Python scripts to parse and validate Kubernetes pod logs, enabling the team to resolve incidents 50% faster."
+        ]
+      }
+    ],
+    "skills": {
+      "languages": [
+        "Python",
+        "C++",
+        "Go",
+        "Bash"
+      ],
+      "frameworks": [
+        "FastAPI",
+        "Pytest",
+        "gRPC"
+      ],
+      "tools": [
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Ansible",
+        "Prometheus",
+        "Grafana",
+        "GitHub Actions"
+      ],
+      "concepts": [
+        "REST API",
+        "microservices",
+        "CI/CD",
+        "distributed systems",
+        "TCP/IP",
+        "DNS"
+      ],
+      "platforms": [
+        "AWS",
+        "GCP",
+        "Linux"
+      ]
+    }
+  },
+  "jd_profile": {
+    "job_title": "Systems Engineer",
+    "company": "Phillip Securities Pte Ltd",
+    "location": "Singapore",
+    "experience_level": "Entry to Mid Level",
+    "required_skills": [
+      "Python",
+      "Go",
+      "C++",
+      "Linux",
+      "Bash",
+      "Terraform",
+      "Ansible",
+      "Prometheus",
+      "Grafana",
+      "ELK stack",
+      "TCP/IP",
+      "DNS",
+      "Load balancing",
+      "AWS",
+      "GCP",
+      "Azure"
+    ],
+    "preferred_skills": [
+      "GitHub Actions",
+      "Jenkins",
+      "Terraform",
+      "Pulumi",
+      "Distributed systems",
+      "Consensus algorithms",
+      "Prometheus",
+      "Grafana"
+    ],
+    "tools_technologies": [
+      "Python",
+      "Go",
+      "RESTful APIs",
+      "Microservices",
+      "Terraform",
+      "Ansible",
+      "Prometheus",
+      "Grafana",
+      "ELK stack",
+      "Docker",
+      "Kubernetes",
+      "Bash",
+      "AWS",
+      "GCP",
+      "Azure"
+    ],
+    "responsibilities": [
+      "Design and implement RESTful APIs and microservices",
+      "Automate infrastructure provisioning",
+      "Monitor system health",
+      "Participate in on-call rotation and incident response",
+      "Write technical documentation and runbooks",
+      "Collaborate with software engineers, data engineers, and QA teams"
+    ],
+    "soft_skills": [
+      "Problem-solving skills",
+      "Attention to detail",
+      "Written communication",
+      "Verbal communication"
+    ],
+    "buzzwords": [
+      "Infrastructure as Code",
+      "Containerised workloads",
+      "Observability tools",
+      "Continuous Integration/Continuous Deployment (CI/CD)",
+      "Growth mindset"
+    ],
+    "deal_breakers": []
+  },
+  "keyword_match": {
+    "present": [
+      {
+        "keyword": "Python",
+        "category": "language",
+        "found_in": "projects",
+        "exact_match": true
+      },
+      {
+        "keyword": "Go",
+        "category": "language",
+        "found_in": "skills",
+        "exact_match": true
+      },
+      {
+        "keyword": "C++",
+        "category": "language",
+        "found_in": "skills",
+        "exact_match": true
+      },
+      {
+        "keyword": "Linux",
+        "category": "concept",
+        "found_in": "skills",
+        "exact_match": true
+      },
+      {
+        "keyword": "Bash",
+        "category": "tool",
+        "found_in": "skills",
+        "exact_match": true
+      },
+      {
+        "keyword": "Terraform",
+        "category": "tool",
+        "found_in": "projects",
+        "exact_match": true
+      },
+      {
+        "keyword": "Ansible",
+        "category": "tool",
+        "found_in": "projects",
+        "exact_match": true
+      },
+      {
+        "keyword": "Prometheus",
+        "category": "tool",
+        "found_in": "skills",
+        "exact_match": true
+      },
+      {
+        "keyword": "Grafana",
+        "category": "tool",
+        "found_in": "skills",
+        "exact_match": true
+      },
+      {
+        "keyword": "AWS",
+        "category": "platform",
+        "found_in": "projects",
+        "exact_match": true
+      },
+      {
+        "keyword": "GCP",
+        "category": "platform",
+        "found_in": "projects",
+        "exact_match": true
+      }
+    ],
+    "missing": [
+      {
+        "keyword": "ELK stack",
+        "category": "tool",
+        "importance": "required",
+        "suggested_section": "skills",
+        "why_it_matters": "The JD requires ELK stack experience, but the resume doesn't list it, potentially missing a key skill."
+      },
+      {
+        "keyword": "TCP/IP",
+        "category": "concept",
+        "importance": "required",
+        "suggested_section": "skills",
+        "why_it_matters": "The JD lists TCP/IP as a required skill, but the resume doesn't mention it, indicating a potential gap in networking knowledge."
+      },
+      {
+        "keyword": "DNS",
+        "category": "concept",
+        "importance": "required",
+        "suggested_section": "skills",
+        "why_it_matters": "The JD requires DNS knowledge, but the resume doesn't include it, potentially impacting system understanding."
+      },
+      {
+        "keyword": "Load balancing",
+        "category": "concept",
+        "importance": "required",
+        "suggested_section": "skills",
+        "why_it_matters": "The JD requires load balancing skills, but the resume doesn't mention it, potentially missing a key system design element."
+      },
+      {
+        "keyword": "Azure",
+        "category": "platform",
+        "importance": "preferred",
+        "suggested_section": "skills",
+        "why_it_matters": "The JD lists Azure as a preferred skill, but the resume doesn't include it, potentially limiting cloud experience."
+      }
+    ],
+    "keyword_match_score": 65.0
+  },
+  "bullets": {
+    "bullets": [
+      {
+        "source": "projects|experience",
+        "parent_title": "Distributed Task Scheduler",
+        "bullet_text": "Designed a Python-based distributed task scheduler using Redis and Docker that reduced job processing time by 40%, handling 500+ concurrent tasks.",
+        "has_action_verb": true,
+        "has_specific_technology": true,
+        "has_measurable_impact": true,
+        "level": "L3_BEST",
+        "what_is_missing": "Quantify the impact on business outcomes or user satisfaction."
+      },
+      {
+        "source": "projects|experience",
+        "parent_title": "Distributed Task Scheduler",
+        "bullet_text": "Implemented RESTful APIs with FastAPI and deployed on AWS ECS using Terraform, achieving 99.9% uptime over a 3-month period.",
+        "has_action_verb": true,
+        "has_specific_technology": true,
+        "has_measurable_impact": true,
+        "level": "L3_BEST",
+        "what_is_missing": "Could specify the number of users or requests served."
+      },
+      {
+        "source": "projects|experience",
+        "parent_title": "Distributed Task Scheduler",
+        "bullet_text": "Automated CI/CD pipeline with GitHub Actions, cutting deployment time from 30 minutes to under 5 minutes.",
+        "has_action_verb": true,
+        "has_specific_technology": true,
+        "has_measurable_impact": true,
+        "level": "L2_BETTER",
+        "what_is_missing": "Quantify the impact on developer productivity or release frequency."
+      },
+      {
+        "source": "projects|experience",
+        "parent_title": "Real-Time Physics Engine",
+        "bullet_text": "Built a real-time application loop in C++ with Vulkan rendering that sustained 60 fps on 500+ dynamic objects simultaneously.",
+        "has_action_verb": true,
+        "has_specific_technology": true,
+        "has_measurable_impact": false,
+        "level": "L2_BETTER",
+        "what_is_missing": "Quantify the performance improvement or user experience impact."
+      },
+      {
+        "source": "projects|experience",
+        "parent_title": "Real-Time Physics Engine",
+        "bullet_text": "Implemented spatial algorithms (AABB broad-phase, SAT narrow-phase) in C++, reducing collision computation time by 35%.",
+        "has_action_verb": true,
+        "has_specific_technology": true,
+        "has_measurable_impact": true,
+        "level": "L3_BEST",
+        "what_is_missing": "Specify the context of the collision computation (e.g., game engine)."
+      },
+      {
+        "source": "projects|experience",
+        "parent_title": "Real-Time Physics Engine",
+        "bullet_text": "Deployed cross-platform on Windows and Linux using CMake.",
+        "has_action_verb": true,
+        "has_specific_technology": false,
+        "has_measurable_impact": false,
+        "level": "L1_OK",
+        "what_is_missing": "Describe the benefit of cross-platform deployment."
+      },
+      {
+        "source": "projects|experience",
+        "parent_title": "Linux Monitoring Dashboard",
+        "bullet_text": "Developed a Prometheus + Grafana monitoring stack with Bash automation scripts that detected system anomalies 3x faster than manual log review.",
+        "has_action_verb": true,
+        "has_specific_technology": true,
+        "has_measurable_impact": true,
+        "level": "L3_BEST",
+        "what_is_missing": "Quantify the reduction in downtime or cost savings."
+      },
+      {
+        "source": "projects|experience",
+        "parent_title": "Linux Monitoring Dashboard",
+        "bullet_text": "Containerised the stack with Docker Compose; integrated Kubernetes Helm charts for scaling across 10-node clusters.",
+        "has_action_verb": true,
+        "has_specific_technology": true,
+        "has_measurable_impact": false,
+        "level": "L2_BETTER",
+        "what_is_missing": "Describe the impact of scaling on performance or resource utilization."
+      },
+      {
+        "source": "projects|experience",
+        "parent_title": "Systems Engineering Intern",
+        "bullet_text": "Automated infrastructure provisioning with Terraform and Ansible across AWS GCP environments, reducing manual setup time by 60%.",
+        "has_action_verb": true,
+        "has_specific_technology": true,
+        "has_measurable_impact": true,
+        "level": "L3_BEST",
+        "what_is_missing": "Specify the cost savings or efficiency gains."
+      },
+      {
+        "source": "projects|experience",
+        "parent_title": "Systems Engineering Intern",
+        "bullet_text": "Wrote Python scripts to parse and validate Kubernetes pod logs, enabling the team to resolve incidents 50% faster.",
+        "has_action_verb": true,
+        "has_specific_technology": true,
+        "has_measurable_impact": true,
+        "level": "L3_BEST",
+        "what_is_missing": "Quantify the reduction in incident resolution time or impact on service availability."
+      }
+    ],
+    "bullet_quality_avg": 2.48
+  },
+  "jargon": {
+    "flags": [
+      {
+        "bullet_text": "Automated infrastructure provisioning with Terraform and Ansible across AWS GCP environments, reducing manual setup time by 60%.",
+        "term_used": "Infrastructure as Code",
+        "suggested_translation": "Infrastructure as Code",
+        "severity": "low"
+      },
+      {
+        "bullet_text": "Containerised the stack with Docker Compose; integrated Kubernetes Helm charts for scaling across 10-node clusters.",
+        "term_used": "Containerised workloads",
+        "suggested_translation": "Containerized Workloads",
+        "severity": "low"
+      },
+      {
+        "bullet_text": "Automated infrastructure provisioning with Terraform and Ansible across AWS GCP environments, reducing manual setup time by 60%.",
+        "term_used": "Microservices",
+        "suggested_translation": "Microservices",
+        "severity": "low"
+      },
+      {
+        "bullet_text": "Automated infrastructure provisioning with Terraform and Ansible across AWS GCP environments, reducing manual setup time by 60%.",
+        "term_used": "Continuous Integration/Continuous Deployment (CI/CD)",
+        "suggested_translation": "Continuous Integration/Continuous Deployment (CI/CD)",
+        "severity": "low"
+      },
+      {
+        "bullet_text": "Automated infrastructure provisioning with Terraform and Ansible across AWS GCP environments, reducing manual setup time by 60%.",
+        "term_used": "Observability tools",
+        "suggested_translation": "Observability Tools",
+        "severity": "low"
+      }
+    ],
+    "jargon_score": 73.0
+  },
+  "structure": {
+    "page_count_estimate": 1,
+    "single_column_likely": true,
+    "section_headings_present": [
+      "SUMMARY",
+      "PROJECTS",
+      "EXPERIENCE",
+      "EDUCATION",
+      "SKILLS"
+    ],
+    "section_headings_missing": [],
+    "reverse_chronological_likely": true,
+    "contact_info_at_top": true,
+    "length_appropriate": true,
+    "no_images_or_graphics": true,
+    "ats_red_flags": [],
+    "structure_score": 1
+  },
+  "background_fit": {
+    "candidate_background_summary": "Alex Tan is a recent RTIS graduate from DigiPen Institute of Technology with hands-on experience in building real-time systems and deploying them using various technologies, including REST APIs, containerization tools, and cloud platforms.",
+    "role_requirements_summary": "The Systems Engineer role at Phillip Securities requires expertise in designing and implementing RESTful APIs, automating infrastructure provisioning, monitoring system health, and utilizing DevOps tools like Terraform and Prometheus.",
+    "alignment_commentary": "The candidate\u2019s education aligns well with the job description, having studied relevant topics such as distributed systems and computer networks. Their project experience directly addresses several key requirements, including API development using FastAPI, infrastructure automation with Terraform and Ansible, and monitoring solutions utilizing Prometheus and Grafana. While some preferred skills like Jenkins and Pulumi are not explicitly listed, the candidate\u2019s core skillset overlaps significantly with the job's demands.",
+    "background_fit_score": 8
+  },
+  "degree_alignment": {
+    "student_degree": "RTIS",
+    "jd_title": "Systems Engineer",
+    "title_on_suggested_list": true,
+    "matched_against": "Systems Engineer",
+    "fit_commentary": "The JD title aligns perfectly with the RTIS degree's suggested titles. The job description focuses on systems engineering principles and technologies.",
+    "degree_alignment_score": 100
+  },
+  "overall_score": 44,
+  "passes_ats_threshold": false,
+  "summary": "*   The r\u00e9sum\u00e9 demonstrates strong technical skills in areas like Python, Go, C++, and AWS/GCP through project experience. However, a significant gap exists due to the absence of key required skills such as ELK stack, TCP/IP, DNS, and load balancing, potentially hindering ATS matching and overall fit.\n*   The bullet points primarily focus on technical implementation details but lack quantifiable impact or business outcomes, resulting in a lower overall score. Adding metrics and connecting work to tangible results would strengthen the r\u00e9sum\u00e9\u2019s effectiveness.\n*   Despite showcasing relevant technologies, the resume lacks mention of critical DevOps tools like Jenkins or Pulumi, which are often prioritized by employers in this role, potentially impacting ATS screening and reducing the candidate's perceived fit for the Systems Engineer position.",
+  "meta": {
+    "generated_at": "2026-07-20 16:30:53"
+  }
+}

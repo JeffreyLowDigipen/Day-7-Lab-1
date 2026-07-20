@@ -1,0 +1,14 @@
+# Virtual Environments (matches at any depth)
+venv/
+.venv/
+
+# Environment variables and databases
+.env
+*.db
+chroma_db/
+
+# Python cache
+__pycache__/
+
+# Streamlit config
+.streamlit/
