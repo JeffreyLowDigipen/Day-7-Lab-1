@@ -30,7 +30,7 @@ import litellm
 
 load_dotenv()
 
-_MODEL = os.getenv("MODEL", "openai/gpt-4o-mini")
+_MODEL = os.getenv("MODEL")
 
 # Phrases that indicate the LLM violated the anti-rewrite rule.
 _REWRITE_MARKERS = ("here is a rewritten", "improved version:")
